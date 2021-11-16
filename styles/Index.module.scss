@@ -1,0 +1,76 @@
+.pageLink {
+    text-align: center;
+
+    margin: 46px 18px 42px 2px;
+    a {
+        margin: 0 40px;
+    }
+}
+
+.centerItem {
+    text-align: center;
+}
+.auctionSection {
+    float:left;
+    width: 70%;
+    background-color: white;
+    overflow: auto;
+    height: 100vh;
+}
+
+.rightSection {
+    background: white;
+    float: left;
+    width: 30%;
+    overflow-y: scroll;
+    height: 100vh;
+
+    img {
+        max-width: 100%;
+    }
+    
+    .mcEmbedSignup {
+        background: #fff;
+        clear: left;
+        font: 14px;
+        font-family: "Comic Sans MS", "Comic Sans", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
+
+        .mcEmbedSignupScrollItem {
+            position: absolute; left: -5000px;
+        }
+    }
+
+    .logomovie {
+        width: 100%;
+        background-color: white;
+        // overflow: scroll;
+
+        .logomovieItem {
+            margin: 30px;
+            height:0px;
+            position:relative;
+            padding-bottom:61.591%;
+        }
+
+        .logomovieIframe {
+            width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;border:none;
+        }
+        
+    }
+            
+    .social {
+        max-width: 170px;
+        height: 55px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+    }
+    .socialTextContent {
+        font-family: "Comic Sans MS", "Comic Sans", "Chalkboard", "ChalkboardSE-Regular", sans-serif;
+        font-size: 11px;
+        text-align: center;
+    }
+    .divsocial {
+        padding: 5px
+    }
+}
